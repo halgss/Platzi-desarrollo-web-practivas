@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.fondo{    
+    background-color: rgb(155, 152, 152);
+    /*display: grid;
+    place-content: center;*/
+    width: 100%;
+    height: 100%;
+    
+}
+
+.tarjeta{
+    background-color: rgb(155, 152, 152);
+    display: inline-block;
+    width: 392px;
+    height: 415px;
+    margin-top: 5px;
+}
+.box{
+    display: inline-block;
+}
+
+#two{
+    background: linear-gradient(100deg, #eb8006, #ec250b);
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    margin-left: 5px;
+    border-radius: 20px;
+    filter: drop-shadow(-5px 10px 4px #00000073);
+}
+#three{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#four{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 5px;
+    width: 250px;    
+    font-size: 7em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    color: #9e1b0a46;
+    overflow:hidden;
+}
+#five{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 5px;
+    width: 250px;    
+}
+
+#five img{
+    margin-left: 100px;
+    width: 270px;
+    transform:rotate(-10deg);
+    filter: drop-shadow(5px 10px 4px #00000073);
+}
+#six{
+    background-color: #00ff22;
+    position: absolute;
+    padding-top: 3px;
+    margin-top: 330px;
+    margin-left: 150px;
+    width: 160px;
+    height: 35px;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;;
+}
+
+#six span{
+    font-size: 1em;
+    font-family: Tahoma;
+}
